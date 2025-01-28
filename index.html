@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Briefing Central</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Briefing para Cliente de Social Media e Design</h1>
+
+        <!-- INFORMACOES GERIS -->
+        <p>
+            <h2>Informacoes Gerais</h2>
+            <label for="">Digite o nome da empresa</label> <br>
+            <input placeholder="Nome da Empresa" required name="nomeDaEmpresa" type="text"> <br>
+
+            <label for="">Digite o nome do responsavel pelo briefing </label> <br>
+            <input placeholder="Nome do Responsavel" required name="nomeDoResponsavel" type="text"> <br>
+
+            <label for="">Digite um número de telefone</label> <br>
+            <input placeholder="Telefone" required name="telefone" type="number"> <br>
+
+            <label for="">Digite um email</label> <br>
+            <input placeholder="Email" required name="email" type="email"> <br>
+
+            <label for="">Digite o site da empresa</label> <br>
+            <input placeholder="Site da empresa" name="site" type="text"> <br>
+        </p>
+
+        <!-- SOBRE A EMPRESA -->
+        <p>
+            <h2>Sobre a Empresa</h2>
+
+            <label>Qual é a história da empresa? Quando e como ela foi fundada?</label> <br>
+            <textarea placeholder="Digite algo..." rows="10" cols="40" required name="históriaDaEmpresa" id=""></textarea> <br><br>
+
+            <label>Missão, Visão e Valores: Quais são os principais objetivos e princípios que guiam a empresa?</label> <br>
+            <textarea placeholder="Digite algo..." rows="10" cols="40" required name="missaoDaEmpresa" id=""></textarea> <br><br>
+
+            <label>Público-Alvo: Quem são os clientes principais (perfil demográfico, comportamentos, preferências)?</label> <br>
+            <textarea placeholder="Digite algo..." rows="10" cols="40" required name="publicoAlvo" id=""></textarea> <br><br>
+
+            <label>Concorrência: Quais são os concorrentes diretos e indiretos? Algum diferencial em relação a eles?</label> <br>
+            <textarea placeholder="Digite algo..." rows="10" cols="40" required name="concorrencia" id=""></textarea> <br><br>
+        </p>
+
+        <!-- PRESENÇA ONLINE E POSICIONAMENTO -->
+        <p>
+            <h2>Presença Online e Posicionamento</h2>
+            <p>Redes Sociais Atuais:</p>
+            <ul>
+                <li><input value="SIM" name="linkedin" type="checkbox">Linkedin</li>
+                <li><input value="SIM" name="instagram" type="checkbox">Instagram</li>
+                <li><input value="SIM" name="facebook" type="checkbox">Facebook</li>
+                <li><input value="SIM" name="tiktok" type="checkbox">Tiktok</li> 
+                <li><input value="SIM" name="nenhuma" type="checkbox">Nenhuma</li> <br>
+            </ul>
+
+            <label for="">Conteúdo Atual: O que já é produzido atualmente? Há algum exemplo de post ou campanha que funcionou bem?</label> <br>
+            <textarea rows="10" cols="40" placeholder="Digite algo" required name="ConteudoAtual" id=""></textarea>
+
+        </p>
+
+        <!-- OBJETIVO E ESTRAÉGIA -->
+        <P>
+            <h2>Objetico e Estratégia</h2>
+            <p>Objetivos da Presença Online: Quais são os principais objetivos?</p>
+            <ul>
+                <li><input  value="SIM" name="aumentarSeguidores" type="checkbox">Aumentar Seguidores</li>
+                <li><input  value="SIM" name="gerarLeads" type="checkbox">Gerar Leads</li>
+                <li><input  value="SIM" name="engajarClientes" type="checkbox">Engajar Clientes</li>
+                <li><input  value="SIM" name="fortalecerAMarca" type="checkbox">Fortalecer a Marca</li>
+                <li><input  value="SIM" name="outros" type="checkbox">Outros</li> <br>
+            </ul>
+        </P>
+    </body>
+</html>
